@@ -66,7 +66,8 @@
     
       
       <div class="apply">
-          <a href="#" title="Apply Today">apply today</a>
+          <a href="https://www.surveymonkey.com/r/NDNDSRJ" 
+            target="_blank" title="Apply Today">apply today</a>
       </div>
       
       <div class="boxes">
@@ -113,12 +114,24 @@
     
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-37369752-1', 'mga.edu');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
     <!-- endbuild -->
   </body>
 </html>
